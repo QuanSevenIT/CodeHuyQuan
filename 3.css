@@ -1,0 +1,19 @@
+*{margin: 0; padding: 0;}
+.menu{
+    width: 100%;
+    height: 40px;
+    background-color: darkblue;
+}
+.menu a{
+    color: wheat;
+    text-decoration: none;
+    font-size: 18px;
+    display: inline-block;
+    padding: 7px 20px;
+}
+.doimenu{
+    background-color: brown;
+    position: fixed;
+    transition: 0.3s;
+    z-index: 10;
+}

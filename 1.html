@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html{
+            font-size: 20px;
+        }
+        .cha{
+            font-size: 18px;
+            width: 100%;
+        }
+        .con{
+            font-size: 1em;
+            width: 49%;
+            height: 300px;
+            background-color: salmon;
+            float: left;
+            border: 2px solid rebeccapurple;
+        }
+        .cha2{
+            width: 50%;
+        }
+        .con2{
+            width: 50%; 
+            height: 300px;
+            border: 1px solid red;
+        }
+        @media(max-width:480px){
+            .con{
+                width: 100%;
+                background-color: aqua;
+            }
+        }
+        /* em lấy theo đối tượng cha, rem lấy theo đối tượng gốc_mặc định 16px
+        1vw = 1% của màn hình
+         */
+    </style>
+</head>
+<body>
+    <h1>HELLO BABY</h1>
+    <div class="cha">
+        <div class="con"></div>
+        <div class="con"></div>
+    </div>
+    <div class="cha2">
+        <div class="con2"></div>
+    </div>
+</body>
+</html>
